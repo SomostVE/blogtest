@@ -1,6 +1,6 @@
-<?php  include('../config.php'); ?>
-<?php  include(ROOT_PATH . '/admin/includes/admin_functions.php'); ?>
-<?php include(ROOT_PATH . '/admin/includes/head_section.php'); ?>
+<?php  include('/wamp/www/blogtest/config.php'); ?>
+<?php  include('/wamp/www/blogtest/admin/includes/admin_functions.php'); ?>
+<?php  include('/wamp/www/blogtest/admin/includes/head_section.php'); ?>
 <!-- Get all topics from DB -->
 <?php $topics = getAllTopics();	?>
 	<title>Admin | Manage Topics</title>
