@@ -1,6 +1,7 @@
-	<?php include(ROOT_PATH . '../config.php'); ?>
+	<?php include('../config.php'); ?>
 	<?php include(ROOT_PATH . '/admin/includes/admin_functions.php'); ?>
 	<?php include(ROOT_PATH . '/admin/includes/head_section.php'); ?>
+<html>	
 	<title>Admin | Dashboard</title>
 </head>
 <body>
