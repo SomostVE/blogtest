@@ -46,7 +46,7 @@ function createAdmin($request_values){
 		mysqli_query($conn, $query);
 
 		$_SESSION['message'] = "Admin user created successfully";
-		header('location: users.php');
+		header('location: /wam/www/blogtest/admin/users.php');
 		exit(0);
 	}
 }
@@ -95,7 +95,7 @@ function updateAdmin($request_values){
 		mysqli_query($conn, $query);
 
 		$_SESSION['message'] = "Admin user updated successfully";
-		header('location: users.php');
+		header('location: /wam/www/blogtest/admin/users.php');
 		exit(0);
 	}
 }
@@ -105,7 +105,7 @@ function deleteAdmin($admin_id) {
 	$sql = "DELETE FROM users WHERE id=$admin_id";
 	if (mysqli_query($conn, $sql)) {
 		$_SESSION['message'] = "User successfully deleted";
-		header("location: users.php");
+		header("location: /wam/www/blogtest/admin/users.php");
 		exit(0);
 	}
 }

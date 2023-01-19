@@ -1,5 +1,5 @@
 <!-- The first include should be config.php -->
-<?php require_once( 'config.php') ?>
+<?php require_once( '/wamp/www/blogtest/config.php') ?>
 <?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
 <?php require_once( ROOT_PATH . '/includes/public_functions.php') ?>
 <?php require_once( ROOT_PATH . '/includes/registration_login.php') ?>
@@ -24,7 +24,6 @@
 		<div class="content">
 			<h2 class="content-title">Recent Articles</h2>
             <hr>
-<!-- more content still to come here ... -->
 
 <?php foreach ($posts as $post): ?>
 	<div class="post" style="margin-left: 0px;">
